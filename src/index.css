@@ -11,3 +11,25 @@ body {
     sans-serif;
 }
 
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 0 0 2rem 2rem;
+}
+
+button {
+  color: #FFF;
+  background-color: blue;
+  width: 9rem;
+  height: 3rem;
+  margin-left: 7rem;
+}
+
+h3 {
+  text-decoration: underline;
+  margin: 1.75rem 0;
+}
