@@ -33,3 +33,17 @@ h3 {
   text-decoration: underline;
   margin: 1.75rem 0;
 }
+
+li {
+  list-style: none;
+}
+
+.spanners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80vw;
+}
+
+span {
+  justify-content: space-between;
+}
