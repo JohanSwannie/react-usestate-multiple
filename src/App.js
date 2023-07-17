@@ -42,7 +42,12 @@ const App = () => {
         <ul>
           {array.map((item, index) => (
             <li key={index}>
-              Username: {item.username} --- Password: {item.password}
+              <div className="spanners">
+                <span>Username: </span>
+                <span>{item.username}</span>
+                <span>Password: </span>
+                <span>{item.password}</span>
+              </div>
             </li>
           ))}
         </ul>
